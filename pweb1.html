@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas PWEB</title>
+</head>
+<body>
+    <h3>Pendaftaran Permohonan Penurunan UKT</h3>
+    <form action="/action_page.php">
+        <table border="0" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>
+                    <label for="nama">Nama Lengkap </label>
+                    
+                 </td>
+                 <td>
+                    <input type="text" id="nama" name="nama">
+                 </td>
+             </tr>
+            <tr>
+                <td>
+                    <label for="nim">NIM  </label>
+                    
+                </td>
+                <td>
+                    <input type="text" id="nim" name="nim">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tl">Tanggal Lahir </label>
+                </td>
+                <td>
+                    <input type="date" id="tl" name="tl">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="notelp">No. Telp:</label>
+                </td>
+                <td>
+                    <input type="text"id="notelp" name="notelp"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kelamin">Jenis Kelamin </label>
+                </td>
+                <td>
+                    <input type="radio" id="pria" value="pria"> Laki - Laki
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" id="perempuan" value="perempuan"> Perempuan
+                </td>
+            </tr> 
+        </table><br>
+        
+        <label for="alasan">Jelaskan alasan penurunan UKT anda!</label> <br><br>        
+        <textarea id="alasan" name="alasan" rows="4" cols="50"></textarea> <br><br>
+
+        <button type="submit">Kirim</button>
+</body>
+</html>
+
